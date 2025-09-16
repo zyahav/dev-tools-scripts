@@ -133,6 +133,26 @@ curl -s [URL] | head -c 100
 2. **Browser automation not needed** - Cloudflare setup is manual but straightforward
 3. **Simple verification** - `curl` commands are sufficient for testing
 4. **Directory structure matters** - `public/debug/` path must be exact
+5. **Push to git frequently** - Commit and push after every significant change
+
+### Best Practices:
+- **Always commit and push** after each completed step
+- **Use descriptive commit messages** that explain what was accomplished
+- **Push immediately** - don't wait until the end
+- **Cloudflare Pages auto-deploys** from git pushes, so changes are live quickly
+
+### Git Workflow:
+```bash
+# After any significant change:
+git add .
+git commit -m "Descriptive message about what was done"
+git push origin main
+
+# Examples:
+git commit -m "Add mobile console interceptor to public/debug directory"
+git commit -m "Update Task Brief with improved instructions"
+git commit -m "Fix directory structure for Cloudflare Pages deployment"
+```
 
 ### Time Estimates:
 - Repository setup: 2-3 minutes
