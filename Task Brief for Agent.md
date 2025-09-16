@@ -1,5 +1,32 @@
 📋 Task Brief for Agent — Host Debug Script on Cloudflare Pages
 
+## 🚀 Quick Reference for New Sessions
+
+### Essential Git Commands:
+```bash
+# Repository creation (use gh CLI)
+gh repo create dev-tools-scripts --public --description "Development tools and scripts for debugging mobile applications"
+
+# Git setup and push
+git remote add origin https://github.com/[USERNAME]/dev-tools-scripts.git
+git push -u origin main
+
+# Standard workflow (use after every change)
+git add .
+git commit -m "Descriptive commit message"
+git push origin main
+```
+
+### Key URLs to Verify:
+- **Pages URL**: https://dev-tools-scripts.pages.dev/debug/mobile-console-interceptor.min.js
+- **Custom Domain**: https://dev-tools.zurielyahav.com/debug/mobile-console-interceptor.min.js
+
+### Repository Location:
+- **Local**: `/Users/zyahav/Documents/dev/dev-tools-scripts`
+- **Remote**: https://github.com/zyahav/dev-tools-scripts
+
+---
+
 ## Overview
 Host the `mobile-console-interceptor.min.js` file on Cloudflare Pages with custom domain and verify end-to-end functionality.
 
